@@ -58,12 +58,13 @@ p {
     background-size: cover;
     background-position: center;
 }
-
-.float-left {
-    float: left;
-    margin-right: 25px;
+/*moved to be in sequence */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
-/* moved following class to be in sequence */
+/* moved following classes to be in sequence */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -76,23 +77,50 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-.search-engine-optimization img {
+/* combined seo img to float left */
+.float-left {
+    float: left;
+    margin-right: 25px;
     max-height: 200px;
 }
 
+/* made following classes to be in sequence */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
 
-
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* combined .orm img into following class */
 .float-right {
     float: right;
     margin-left: 25px;
+    max-height: 200px;
+}
+/* moved following classes to be in sequence */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* removed .s-m-m img as it was redundant (info in .float-left) */
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
+
 /*consolidated down to one css descriptor */
 aside {
     margin-right: 20px;
@@ -104,18 +132,8 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* benefit-lead elements now in sequence with HTML */
 .benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -125,20 +143,20 @@ aside {
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+}
+/* benefit-brand elements now in sequence */
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 .benefit-brand img {
@@ -146,52 +164,21 @@ aside {
     margin: 10px auto;
     max-width: 150px;
 }
+/* .benefit-cost elements now in sequence */ 
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
 
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 footer {
